@@ -1,3 +1,6 @@
+let uri = 'mongodb+srv://user1:WKhI0yGSdTAvl2cU@freecodecamp.1cbpvxt.mongodb.net/db1?retryWrites=true&w=majority';
+let mongoose = require('mongoose');
+mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 require('dotenv').config();
 
 
